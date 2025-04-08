@@ -165,15 +165,3 @@ Usuário escolhe exibição em ordem direta ou reversa
    ↓
 Liberação da memória da lista
 ```
-
----
-
-## 🎯 Por que usar lista **duplamente encadeada**?
-
-Optou-se por uma lista duplamente encadeada para:
-
-- **Permitir percorrer em duas direções**, útil para exibir rotas de diferentes formas.
-- Manter **inserção dinâmica** sem limitar o tamanho.
-- **Refinar o aprendizado sobre estruturas de dados**, como ponteiros duplos, alocação dinâmica e gerenciamento de memória.
-
-Essa abordagem favorece a prática de **conceitos fundamentais de algoritmos**, como encadeamento, navegação reversa e controle de fluxo.
