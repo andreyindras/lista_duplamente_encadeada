@@ -116,25 +116,6 @@ Isso é possível graças à estrutura **duplamente encadeada**, onde cada nó s
 
 ---
 
-### 🧹 5. Liberação da lista
-
-Ao final da execução, os ponteiros entre os nós são quebrados para **liberar a memória**:
-
-```java
-public void liberarLista() {
-    No atual = inicio;
-    while (atual != null) {
-        No temp = atual;
-        atual = atual.proximo;
-        temp.anterior = null;
-        temp.proximo = null;
-    }
-    inicio = fim = null;
-}
-```
-
----
-
 ### 🧑‍💻 6. Interação com o usuário em `Main`
 
 A classe `Main` controla o fluxo principal da aplicação:
